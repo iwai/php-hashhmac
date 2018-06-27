@@ -1,0 +1,21 @@
+{
+  "chmod": "0755",
+  "files": [
+    "vendor/autoload.php"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [ "tests" ],
+      "in": [
+        "vendor/chh",
+        "vendor/composer",
+        "vendor/monolog",
+        "vendor/psr"
+      ]
+    }
+  ],
+  "main": "bin/php-hashhmac.php",
+  "output": "bin/php-hashhmac.phar",
+  "stub": true
+}

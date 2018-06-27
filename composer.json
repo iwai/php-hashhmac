@@ -1,0 +1,10 @@
+{
+    "name": "iwai/php-hashhmac",
+    "authors":[
+        { "name":"Yuji Iwai", "email":"iwai.ug@gmail.com" }
+    ],
+    "require": {
+        "chh/optparse": "0.1.*",
+        "monolog/monolog": "^1.23"
+    }
+}
